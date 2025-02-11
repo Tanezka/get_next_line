@@ -5,20 +5,9 @@ Reading from a file descriptor line by line can be tedious. **Get Next Line** (`
 
 ---
 
-## 📜 Function Prototype
-```c
-char *get_next_line(int fd);
-```
-
 | Function | Description |
 |----------|-------------|
 | `get_next_line` | Reads a single line from the given file descriptor. |
-
-#### 📂 **Files to Submit**
-- `get_next_line.c`
-- `get_next_line_utils.c`
-- `get_next_line.h`
-- `Makefile`
 
 #### 🛠 **Compilation**
 Compile using:
