@@ -46,21 +46,6 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c
 
 ---
 
-## 🎯 Bonus Features
-If you've mastered the mandatory part, take it to the next level with these bonuses:
-
-| Bonus Feature | Description |
-|--------------|-------------|
-| **Static Variable Management** | Use only **one static variable** to manage state. |
-| **Multiple File Descriptors** | Handle multiple files at the same time (reading independently). |
-
-#### 📂 **Bonus Files**
-- `get_next_line_bonus.c`
-- `get_next_line_utils_bonus.c`
-- `get_next_line_bonus.h`
-
----
-
 ## ✅ Usage Example
 ```c
 #include <fcntl.h>
